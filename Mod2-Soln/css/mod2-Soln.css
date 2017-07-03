@@ -1,0 +1,104 @@
+/* Mod2 Solution CSS Files */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+title {
+	margin: 10px;
+	padding: 10px;
+	background-color: blue;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body { 
+	font: 75% sans-serif;
+	color: #555753; 
+}
+
+div {
+	position: relative;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	outline-style: thick;
+	outline-color: white;
+}
+
+h1 { 
+	font: bold normal 1.75em georgia, sans-serif;
+	color: #00ffbb;
+}
+/*
+h2 {
+	font: bold normal 1.25em georgia, sans-serif;
+	color: white;
+	background-color: #00bbff;
+	border: 1px solid black;
+	margin: 0px;
+	padding : 2px 2px 2px 0px;
+}.*/
+
+p { 
+    background-color: #A52A2A;
+    font-family: Helvetica;
+    color: white;
+    text-align: justify;
+    margin: 0px;
+	padding: 1px;
+}
+
+#p1 {
+	text-align: right;
+	border: 1px solid black;
+	font: bold normal 1.25em georgia, sans-serif;
+	color: white;
+	background-color: #00bbff;
+	margin: 0px;
+	position: relative;
+}
+
+#p1 {
+	text-align: right;
+	font: bold normal 1.25em georgia, sans-serif;
+	color: white;
+	background-color: #00bbff;
+	margin: 0px;
+	position: relative;
+}
+
+.row {
+	width: 100%
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+  .col-md-6 {
+  		float: left;
+		width: 50%;
+  }
+
+  .col-md-12 {
+  		float: left;
+		width: 100%;
+  }
+}
+/********** Mobile devices only *********
+@media (max-width: 767px) {
+  .col-xs {
+		width: 100%;
+  }
+}
+*/
+/* End of CSS */
